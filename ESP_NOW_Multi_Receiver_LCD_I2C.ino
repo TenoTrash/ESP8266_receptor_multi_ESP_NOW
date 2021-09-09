@@ -3,7 +3,8 @@
 
   Módulo receptor de dos "emisores" que envían dos variables int random usando ESP-NOW
   Se determina si hay falla de comunicación cada 25 segundos mostrando una serie de "calaveras" en la columna de la derecha
-  Se muestra todo en un LCD I2C de 20x4
+  Se muestra todo en un LCD I2C de 20x4 (https://randomnerdtutorials.com/esp32-esp8266-i2c-lcd-arduino-ide/)
+  LCD: GND-GND // VCC-VIN // SDA-D2(gpio4) // SCL-D1(gpio5)
   Marcelo Ferrarotti
   2021
 */
